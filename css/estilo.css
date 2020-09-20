@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+  height: 100vh;
+  max-width:100vw;
+
+}
+
+header{
+    padding: 30px;
+    background-color: transparent;
+}
+
+nav{
+	position: relative;
+
+  /*Estilização da fonte da letra*/
+  font-family:verdana ;
+  color: white;
+  padding: 18px;
+}
+
+section{
+	height: 100vh;
+  font-family:verdana ;
+}
+
+a{
+  cursor: pointer;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+
+  background-color: transparent;
+
+}
+
+form{
+  margin-right: 4%;
+  justify-content:center;
+ 
+}
+
+i{
+  font-size:4cm; 
+  color:black;
+}
+
+img{
+	cursor: pointer;
+}
+
+.overflow{
+  overflow: hidden;  
+}
+
+.icone{
+  font-size: 1cm;
+  color: orange;
+}
+
+.section{
+  background-image:linear-gradient(to bottom right,rgb(153, 51, 102,0.8),rgba(255, 102, 0,0.8)), url(../img/FUNDO.jpg);
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.section2{
+  background-image:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url(../img/logoescrito.jpg);
+  background-size: 100%;
+  background-position: center;   
+  height: 150px;
+  color: white;
+
+}
+
+.section3{
+   padding-top:50px;
+   background-image: url(../img/FUNDO.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 150vh;  
+}
+
+.section4{
+   border-radius: 6%;
+   width: 200px;
+}
+
+.buton{
+  width: 100px;
+}
+.img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-top-radius: 50px;
+}
+
+.capa{
+  position: relative;
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s ease;
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/transparente.png);
+}
+.lock{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/lock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.capa:hover .overlay {
+  opacity: 1;
+}
+
+.texto{
+  color: white;
+  font-size: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#arredondar{
+    border-radius: 50px;
+    background:  #FFA500;
+    padding: 7px;
+    width: 5cm;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#input{
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  width: 25%;
+  height: 40px;
+}
+
+#bordaCardCima {
+  border-top-radius:50px 
+}
+#bordaCardBaixo{
+    border-bottom-radius:50px;
+}

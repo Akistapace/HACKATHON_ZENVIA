@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+  height: 100vh;
+  max-width:100vw;
+
+}
+
+header{
+    padding: 28px;
+    
+}
+
+nav{
+	position: relative;
+  background-image: linear-gradient(180deg, gray,transparent);
+  /*Estilização da fonte da letra*/
+  font-family:verdana ;
+  color: white;
+  padding: 18px;
+}
+
+section{
+
+  font-family:verdana ;
+  overflow-y:hidden;
+}
+.h1{
+  padding: 25px;
+}
+
+a{
+  cursor: pointer;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+
+  background-color: transparent;
+
+}
+
+img{
+	cursor: pointer;
+}
+.alvo{
+  height: 70px;
+  width: 70px;
+  margin:auto;
+}
+
+.section{
+  height: 300px;
+  overflow-x: hidden;
+}
+
+.section1{
+  height: 300px;
+}
+
+.section2{
+  height: 400px;
+}
+
+.textFont{
+  font-size: 20px;
+}
+.textFont1{
+  font-size: 30px;
+}
+.checked {
+  color: orange;
+}
+
+.rowview{
+  height: 100vh;
+}
+
+.box{
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+
+.buton{
+  width: 100px;
+}
+
+.card1{
+  width: 10cm;
+  height: 4cm;
+
+}
+.centraliza{
+  margin-top:3%;
+}
+
+.image{
+  height: 300px;
+  background-color: black;
+  background-image: url(../img/b3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#img1{
+  position: bottom;
+  height: 150px;
+  width: 150px;
+  margin:auto;
+  float: none;
+}
+
+#imglinha{
+  height: 100px;
+  width: 100%;
+}
+
+#carrosel{
+  height:300px ;
+  border-radius: 50px;
+}
+
+#carrosel2{
+  height:30% ;
+  border-radius: 50px;
+}
+
+#radius{
+    border-radius: 50px;
+
+}
+
+#altura{
+  height: 300px;
+  margin: auto;
+}
+
+
