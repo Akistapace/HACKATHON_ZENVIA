@@ -40,7 +40,7 @@
 
 			<div class="row">
 				<div class="col-md-6 col-xl-4">
-					<div class="curso-container">
+					<div class="curso-container" onclick="openCourse()">
 						<h2 class="curso-title">
 							Análise de Gráficos
 						</h2>
@@ -48,8 +48,8 @@
 						<div class="curso-progress">
 							<div class="curso-steps">
 								<div class="loading-bar-full"></div>
-								<span>3/5</span>
 							</div>
+							<span>5/5</span>
 							<div class="curso-coins">
 								<img class="img-coins" src="img/coin.png" alt="coins">
 								<span>100/100</span>
@@ -60,16 +60,17 @@
 				</div>
 
 				<div class="col-md-6 col-xl-4">
-					<div class="curso-container">
+					<div class="curso-container" onclick="openCourse()">
 						<h2 class="curso-title">
 							Conceitos Básicos de Trade
 						</h2>
 	
 						<div class="curso-progress">
 							<div class="curso-steps">
-								<div class="loading-bar-full"></div>
-								<span>3/5</span>
+								<div class="loading-bar-full" style="width: 60px"></div>
+								<div class="loading-bar-empty"></div>
 							</div>
+							<span>3/5</span>
 							<div class="curso-coins">
 								<img class="img-coins" src="img/coin.png" alt="coins">
 								<span>30/100</span>
@@ -80,19 +81,20 @@
 				</div>
 
 				<div class="col-md-6 col-xl-4">
-					<div class="curso-container">
+					<div class="curso-container" onclick="openCourse()">
 						<h2 class="curso-title">
 							Conceitos Básicos de Investimento I
 						</h2>
 	
 						<div class="curso-progress">
 							<div class="curso-steps">
-								<div class="loading-bar-full"></div>
-								<span>3/5</span>
+								<div class="loading-bar-full" style="width: 20px"></div>
+								<div class="loading-bar-empty"></div>
 							</div>
+							<span>1/5</span>
 							<div class="curso-coins">
 								<img class="img-coins" src="img/coin.png" alt="coins">
-								<span>0/100</span>
+								<span>20/100</span>
 							</div>
 						</div>
 						
@@ -100,16 +102,21 @@
 				</div>
 
 				<div class="col-md-6 col-xl-4">
-					<div class="curso-container">
+					<div class="curso-container" onclick="openCourse()">
 						<h2 class="curso-title">
 							Conceitos Básicos de Investimento II
+							<div class="coins-unlock">
+								250
+								<img class="coins-unlock-img" src="img/coin.png" alt="coins to unlock">
+							</div>	
 						</h2>
+											
 	
 						<div class="curso-progress">
 							<div class="curso-steps">
-								<div class="loading-bar-full"></div>
-								<span>3/5</span>
+								<div class="loading-bar-empty"></div>
 							</div>
+							<span>0/5</span>
 							<div class="curso-coins">
 								<img class="img-coins" src="img/coin.png" alt="coins">
 								<span>0/100</span>
@@ -120,16 +127,20 @@
 				</div>
 
 				<div class="col-md-6 col-xl-4">
-					<div class="curso-container">
+					<div class="curso-container" onclick="openCourse()">
 						<h2 class="curso-title">
 							Conceitos Básicos de Investimento III
+							<div class="coins-unlock">
+								350
+								<img class="coins-unlock-img" src="img/coin.png" alt="coins to unlock">
+							</div>
 						</h2>
 	
 						<div class="curso-progress">
 							<div class="curso-steps">
-								<div class="loading-bar-full"></div>
-								<span>3/5</span>
+								<div class="loading-bar-empty"></div>
 							</div>
+							<span>0/5</span>
 							<div class="curso-coins">
 								<img class="img-coins" src="img/coin.png" alt="coins">
 								<span>0/100</span>
@@ -142,7 +153,11 @@
 		</div>
 	</main>
 
-
+<script>
+	function openCourse() {
+		location.href = 'curso1.html';
+	}
+</script>
 </body>
 
 </html>

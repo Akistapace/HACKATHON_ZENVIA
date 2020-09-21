@@ -6,26 +6,46 @@ main {
     border: 3px solid #b1b1b1ff;
     border-radius: 20px;
     width: 22rem;
-    height: 19rem;
+    height: 17rem;
     margin-top: 26px;
+}
+
+.curso-container:hover {
+    background-color: #ffc362;
+    border-color: #ffc362;
+    cursor: pointer;
+    color: black !important;
 }
 
 .curso-title {
     text-transform: uppercase;
     color: #555555;
     text-align: center;
-    height: 10rem;
+    height: 8rem;
     margin-top: 90px;
     font-size: 1.5rem;
+}
+
+.coins-unlock {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.coins-unlock-img {
+    width: 30px;
 }
 
 .curso-steps {
     display: inline-block;
     margin: 0 2rem;
+    position: relative;
+    width: 80px;
 }
 
 .curso-coins {
     display: inline-block;
+    margin-left: 26px;
 }
 
 .curso-coins .img-coins {
@@ -41,5 +61,21 @@ main {
     border-radius: 12px;
     height: 16px;
     display: inline-block;
-    background-color: #fea515ff
+    background-color: #fea515ff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.loading-bar-empty {
+    width: 100px;
+    border-radius: 12px;
+    height: 16px;
+    display: inline-block;
+    background-color: #aaaaaa;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
