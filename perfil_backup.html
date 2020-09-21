@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Perfil</title>
+
+	<!----Folha de estilo Própria---->
+		<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+	<!----Folha Bootstrap---->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">	
+	<!----Font Awesome---->	
+		<link rel="stylesheet" type="text/css" href="css/all.css">		
+	<!----Favicon Icon - FALTA A LOGO---->	
+		<link  href="" rel="shortcut icon">
+
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+		<link rel="stylesheet" type="text/css" href="css/perfil.css">
+</head>
+<body>
+	<header>
+		<nav class="" role="navigation">
+			<div class="d-flex justify-content-between">
+				<img class="logo" src="img/logotipo_playgain.png" alt="logo">
+				<div class="d-flex nav-link-list">
+					<div class="nav-link "><a href="perfil.html">HOME</a></div>
+					<div class="nav-link"><a href="#">CURSOS</a></div>
+					<div class="nav-link"><a href="#">CONFIGURAÇÕES</a></div>
+					<div class="nav-link"><a href="index.html">LOGOUT</a></div>
+				</div>
+			</div>
+		</nav>
+	</header>
+<main>
+<!-- Section 1 -->
+<section class="section text-center">
+	<div class="container">
+		<h1>Dashboard</h1>
+	</div>
+<div class="row">
+
+	<div class="col-4 mr-0">
+		<div class="container-fluid section1">
+		    <div class="card card1 mr-0 bg-transparent perfil-container">
+		  	   <img class="card-img-top" id="img1" src="img/persona.png" alt="Card image cap">
+		 	   <div class="card-body bg-warning">
+			   <h5 class="card-title">Ana Maria Braga</h5>
+			   <p class="card-text">Nivel - <b>Iniciante</b></p>
+			   </div>
+			</div>
+		</div>
+	</div>
+
+  <div class="col-4 mt-4">
+	<div class="card text-white bg-primary mt-5 mb-3 ml-5" style="max-width: 18rem;">
+	  <div class="card-header pb-0"><h3>Desafio do Dia</h3></div>
+
+	  <div class="card-body py-0 pr-0" >
+
+	    <p class="card-title">
+	    	<strong class="textFont">Análise Gráfica</strong>
+	    	<img class="img-fluid float-right alvo" src="img/alvo.png">
+	    </p>
+	  </div>
+	</div>
+  </div>	
+  <div class="col-4 mt-4">
+	<div class="card text-white bg-dark mt-5 mb-3 ml-5" style="max-width: 18rem;">
+	  <div class="card-header pb-0"><h3>Coin Acumulado</h3></div>
+	  <div class="card-body py-0 pr-0" >
+	    <p class="card-title">
+	    	<strong class="textFont1">50</strong>
+	    	<img class="img-fluid float-right alvo" src="img/coin.png">
+	    </p>
+	  </div>
+	</div>
+  </div>	
+</div>
+
+
+</section>
+
+<!----Section 2---->
+<section class="container mx-3 text-center section2">
+	<h1>Cursos</h1>
+<div class="row">
+
+	<div class="col-12">
+		<div id="slide" class="carousel slide" data-ride="carousel"> <!-- Inicio Slide -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#slide" data-slide-to="0" class="active"></li>
+		    <li data-target="#slide" data-slide-to="1"></li>
+		    <li data-target="#slide" data-slide-to="2"></li>
+		      <li data-target="#slide" data-slide-to="3"></li>
+		  </ol>
+
+		  <!--Inicio Conteúdo dentro do Carousel -->
+		  <div class="carousel-inner" id="carrosel">
+		    <!--Imagem Curso 1 --> 	
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/1.jpg" alt="Curso 1">
+		       <div class="carousel-caption d-none d-md-block">
+    <h5>...</h5>
+    <p>...</p>
+  </div>
+		    </div>
+		    <!--Imagem Curso 2 -->    
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/2.jpg" alt="Curso 2">
+		    </div>
+		     <!--Imagem Curso 3 -->
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/3.jpg" alt="Curso 3">
+		    </div>
+		     <!--Imagem Curso 4 -->
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/4.jpg" alt="Curso 4">
+		    </div>
+		  </div>
+		  <!--Final Conteúdo dentro do Carousel -->
+
+		   <!--Inicio Botões dentro do Carousel -->
+		  <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		   <!--Final Botões dentro do Carousel -->
+		</div><!-- Final Slide -->
+	</div><!--FinalCol -->
+</div><!-- Final Row 1 -->
+</section>
+
+<!----Section 3---->
+<section>
+<div class="row">
+
+	<div class="col-4" id="altura">
+		<h1 class="ml-5 text-center">Conquistas</h1>
+		<!-- Inicio Slide -->
+		<div id="slide2" class="carousel slide ajustecarousel ml-5 centraliza " data-ride="carousel"> 
+		  <!--Inicio Conteúdo dentro do Carousel -->
+		  <div class="carousel-inner " id="carrosel2">
+		    <!--Medalha Curso 1 --> 	
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/4.jpg" alt="Medalha 1">
+
+		    </div>
+		    <!--Medalha Curso 2 -->    
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/3.jpg" alt="Medalha 2">
+		    </div>
+		     <!--Medalha Curso 3 -->
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/2.jpg" alt="Medalha 3">
+		    </div>
+		     <!--Medalha Curso 4 -->
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/1.jpg" alt="Medalha 4">
+		    </div>
+		  </div>
+		  <!--Final Conteúdo dentro do Carousel -->
+
+		   <!--Inicio Botões dentro do Carousel -->
+		  <a class="carousel-control-prev" href="#slide2" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#slide2" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		   <!--Final Botões dentro do Carousel -->
+		</div><!-- Final Slide -->
+	</div><!--FinalCol -->
+
+	<div class="col-8 mr-0">
+		<h1 class="text-center">Ranking</h1>
+		<table class="table table-hover table-striped table-dark">
+		  <thead class="thead-light" id="radius">
+		    <tr>
+		      <th scope="col-2">Posição</th>
+		      <th scope="col-2">Nome</th>
+		      <th scope="col-2">First</th>
+		      <th scope="col-2">Nível</th>
+		      <th scope="col-2">Pontuação</th>
+		 
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">1</th>
+		      <td>Batman</td>
+		       <td>
+		      	<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+		      </td>
+		 	  <td>Mestre</td>
+			  <td>1000 pts</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td>Jacob</td>
+		       <td>
+		      	<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+		      </td>
+		      <td>Junior</td>
+			  <td>400 pts</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">3</th>
+		      <td>Larry</td>
+		      <td>
+		      	<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star "></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+		      </td>	
+		      <td>Aprendiz</td>
+			  <td>200 pts</td>	 
+		    </tr>
+		    <tr>
+		      <th scope="row">4</th>
+		      <td>Larry</td>
+		      <td>
+		      	<span class="fa fa-star checked"></span>
+				<span class="fa fa-star "></span>
+				<span class="fa fa-star "></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+		      </td>	
+		      <td>Aprendiz</td>
+			  <td>100 pts</td>	 
+		    </tr>
+
+		  </tbody>
+		</table>
+	</div>
+</div><!-- Final Row 1 -->
+
+</section>
+
+</main>
+<footer>
+	<!-- JS -->
+		<script src="bootstrap/js/jquery.js"></script>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- JS -->
+	<div class="container-fluid bg-dark mr-0 text-light">
+			<p class="text-center mb-0">Desenvolvido pelo time 32 - Hackaton Zenvia - New Horizon</p>
+		</div>
+	</div>
+
+</footer>
+</body>
+</html>
