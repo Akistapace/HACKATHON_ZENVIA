@@ -1,0 +1,43 @@
+.nav-link-list {
+
+}
+
+.nav-link {
+    display: inline-block;
+    background-color: white;
+    color: black !important;
+    padding: 0.4rem;
+    border: 2px solid #b1b1b1;
+    border-radius: 30px;
+    margin-left: 5px;
+    font-weight: bold;;
+}
+
+.nav-link:hover {
+    background-color: #fea515ff;
+    border-color: #fea515ff;
+    color: white !important;
+}
+
+.curso-container {
+    border: 3px solid #b1b1b1ff;
+    border-radius: 20px;
+    width: 22rem;
+    height: 19rem;
+}
+
+.curso-title {
+    text-transform: uppercase;
+    color: #555555;
+    text-align: center;
+    line-height: 17rem;
+    font-size: 1.5rem;
+}
+
+.curso-bar {
+    display: inline-block;
+}
+
+.curso-coins {
+    display: inline-block;
+}
