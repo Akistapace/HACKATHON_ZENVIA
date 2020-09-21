@@ -1,206 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cursos</title>
 
 	<!----Folha de estilo Própria---->
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<!----Folha Bootstrap---->
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">	
-	<!----Font Awesome---->	
-		<link rel="stylesheet" type="text/css" href="css/all.css">		
-	<!----Favicon Icon - FALTA A LOGO---->	
-		<link  href="" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!----Font Awesome---->
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+
+	<link rel="stylesheet" type="text/css" href="css/cursos.css">
+	<!----Favicon Icon - FALTA A LOGO---->
+	<link href="" rel="shortcut icon">
 </head>
+
 <body>
-<header>
-	<nav class="navbar navbar-expand-lg bg-light fixed-top" role="navigation">
-		<!---Pode ser inserido uma imagem como logo---->
-		<a class=" navbar-brand text-dark mt-0 pt-0" href="#">PLAYGAIN</a>
+	<header>
+		<nav class="" role="navigation">
+			<div class="d-flex justify-content-between">
+				<img class="logo" src="img/logo.jpg" alt="logo">
+				<div class="d-flex nav-link-list">
+					<div class="nav-link"><a>HOME</a></div>
+					<div class="nav-link"><a>CURSOS</a></div>
+					<div class="nav-link"><a>CONFIGURAÇÕES</a></div>
+					<div class="nav-link"><a>LOGOUT</a></div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row"><h1>Cursos</h1></div>
+			<div class="row">
+				<div class="curso-container">
+					<h2 class="curso-title">
+						Análise de Gráficos
+					</h2>
 
-		<button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
-   			 <span class="navbar-toggler-icon"></span>
-  		</button>
-
-  		<div class="collapse navbar-collapse justify-content-end mr-3" id="menu">
-			<ul class="navbar-nav">
-	 			<li class="nav-item mr-3">
-					<a class="btn btn-outline-warning nav-link buton text-dark " href="perfil.html">Perfil</a> 
-				</li>
-				<li class="nav-item mr-3">
-					<a class="btn btn-outline-warning nav-link text-dark buton active" href="#">Cursos</a> 
-				</li>
-				<li class="nav-item">
-					<a class="btn btn-outline-warning nav-link text-dark buton" href="index.html">Sair</a> 
-				</li>
-			</ul>	
-		</div>	
-	</nav>
-</header>
-<main>
-
-<!----Section 1---->
-<section class="section2 text-center">
-	
-</section>
-
-<!----Section 2---->
-<section class="container-fluid text-center section3">
-	<section class="container">
-	<div class="row card-deck">	<!-- Serve para ajustar os cards -->
-		<div class="card border">
-
-			<!--Inicio Div- Imagem do curso com overlay -->
-			<div class="capa">
-				<img src="img/1.jpg" class="card-img-top img" alt="Conhcendo o Mercado Financeiro">
-				 <div class="overlay">
-				 	<div class="texto"><a href="curso1.html">Introdução ao Mercado Financeiro</a></div>
-				 </div>
-			 </div>
-			<!--Final Div-Imagem do curso com overlay -->
-
-			<!-- Inicio do corpo do Body do card de curso -->
-			 <card class="card-body bg-dark">
-			   <table class="table table-borderless mb-0 text-light"> 
-			   	 <tr class="bordeless">
-				      <td class="col-6 pt-0 px-0 pb-0">	
-				      	<h6 class="text-left">Progresso</h6>
-				    	<div class="progress">
-  							<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div> 
-
+					<div class="curso-progress">
+						<div class="curso-steps">
+							<div class="loading-bar-full"></div>
+							<span>3/5</span>
 						</div>
-					 </td>	
-					  <td class="col-3 pt-3 pl-1 pb-0">
-				 	  	5/5
-				 	  </td>
-				 	  <td class="col-3 pt-0 pl-0 pb-0">
-				 	  	<i class="fas fa-certificate icone"></i>
-				 	  	100/100
-				 	  </td>
-				  </tr>
-				</table>
-			  </card>
-			<!-- Final do corpo do Body do card de curso --> 
-		</div>	
-	
-		<div class="card border">
-			<!--Inicio Div- Imagem do curso com overlay -->
-			<div class="capa">
-				<img src="img/1.jpg" class="card-img-top img" alt="Conhcendo o Mercado Financeiro">
-				 <div class="overlay">
-				 	<div class="texto"><a href="curso2.html"> Conceitos Básicos de Investimento I</a></div>
-				 </div>
-			 </div>
-			<!--Final Div-Imagem do curso com overlay -->
-
-			<!-- Inicio do corpo do Body do card de curso -->
-			 <card class="card-body bg-dark">
-			   <table class="table table-borderless mb-0 text-light"> 
-			   	 <tr class="bordeless">
-				      <td class="col-6 pt-0 px-0 pb-0">	
-				      	<h6 class="text-left">Progresso</h6>
-				    	<div class="progress">
-  							<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">70%</div> 
+						<div class="curso-coins">
+							<img class="img-coins" src="img/stacked-coins.jpg" alt="coins">
+							<span>100/100</span>
 						</div>
-					 </td>	
-					  <td class="col-3 pt-3 pl-1 pb-0">
-				 	  	3/5
-				 	  </td>
-				 	  <td class="col-3 pt-0 pl-0 pb-0">
-				 	  	<i class="fas fa-certificate icone"></i>
-				 	  	70/100
-				 	  </td>
-				  </tr>
-				</table>
-			  </card>
-			<!-- Final do corpo do Body do card de curso -->  
-		</div>	
-	</div>
-
-	<div class="row card-deck mt-5" >	<!-- Serve para ajustar os cards -->
-
-		<div class="card border">
-			<!--Inicio Div- Imagem do curso com overlay -->
-			<div class="capa">
-				<img src="img/1.jpg" class="card-img-top img" alt="Conhcendo o Mercado Financeiro">
-				 <div class="overlay lock">
-				 	<div class="texto"><a href="curso3.html"> Conceitos Básicos de Investimento II</a></div>
-				 </div>
-			 </div>
-			<!--Final Div-Imagem do curso com overlay -->
-
-			<!-- Inicio do corpo do Body do card de curso -->
-			 <card class="card-body bg-dark">
-			   <table class="table table-borderless mb-0 text-light"> 
-			   	 <tr class="bordeless">
-				      <td class="col-6 pt-0 px-0 pb-0">	
-				      	<h6 class="text-left">Progresso</h6>
-				    	<div class="progress">
-  							<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 1%">0%</div> 
-
-						</div>
-					 </td>	
-					  <td class="col-3 pt-3 pl-1 pb-0">
-				 	  	0/5
-				 	  </td>
-				 	  <td class="col-3 pt-0 pl-0 pb-0">
-				 	  	<i class="fas fa-certificate icone"></i>
-				 	  	0/0
-				 	  </td>
-				  </tr>
-				</table>
-			  </card>
-			<!-- Final do corpo do Body do card de curso -->  
-		</div>	
-	
-		<div class="card border">
-			<!--Inicio Div- Imagem do curso com overlay -->
-			<div class="capa">
-				<img src="img/1.jpg" class="card-img-top img" alt="Conhcendo o Mercado Financeiro">
-				 <div class="overlay lock">
-				 	<div class="texto"><a href="curso4.html">Conceitos Básicos de Investimento III </a> </div>
-				 </div>
-			 </div>
-			<!--Final Div-Imagem do curso com overlay -->
-
-			<!-- Inicio do corpo do Body do card de curso -->
-			 <card class="card-body bg-dark">
-			   <table class="table table-borderless mb-0 text-light"> 
-			   	 <tr class="bordeless">
-				      <td class="col-6 pt-0 px-0 pb-0">	
-				      	<h6 class="text-left">Progresso</h6>
-				    	<div class="progress">
-  							<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 1%">0%</div> 
-
-						</div>
-					 </td>	
-					  <td class="col-3 pt-3 pl-1 pb-0">
-				 	  	0/5
-				 	  </td>
-				 	  <td class="col-3 pt-0 pl-0 pb-0">
-				 	  	<i class="fas fa-certificate icone"></i>
-				 	  	0/0
-				 	  </td>
-				  </tr>
-				</table>
-			  </card>
-			<!-- Final do corpo do Body do card de curso --> 
-		</div>	
-	</div>
-</section>
-</main>
-<footer>
-	<!-- JS -->
-		<script src="bootstrap/js/jquery.js"></script>
-		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-	<!-- JS -->
-	<div class="container-fluid bg-dark text-light">
-			<p class="text-center mb-0">Desenvolvido pelo time 32 - Hackaton Zenvia - New Horizon</p>
+					</div>
+					
+				</div>
+			</div>
 		</div>
-	</div>
+	</main>
 
-</footer>
+
 </body>
+
 </html>
