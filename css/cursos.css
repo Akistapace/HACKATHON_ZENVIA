@@ -1,15 +1,21 @@
+main {
+    margin-bottom: 2rem;
+}
+
 .curso-container {
     border: 3px solid #b1b1b1ff;
     border-radius: 20px;
     width: 22rem;
     height: 19rem;
+    margin-top: 26px;
 }
 
 .curso-title {
     text-transform: uppercase;
     color: #555555;
     text-align: center;
-    line-height: 16.3rem;
+    height: 10rem;
+    margin-top: 90px;
     font-size: 1.5rem;
 }
 
