@@ -1,5 +1,12 @@
 # HACKATHON_ZENVIA
 Repositório para armazenamento da aplicação desenvolvida para o Hackaton Zenvia - New Horizon 2020.
+Grupo 32
+Fernando Aquistapace
+Raquel Nascimento
+Carol Aquistapace
+Alex Peixoto
+Jean Wylmer
+
 
 Problema
 O Brasil tem 209,5 milhões de brasileiros e apenas 2,38 milhões, investem na bolsa de valores, ou seja, menos de 1% da população investe no mercado financeiro.
