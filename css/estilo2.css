@@ -15,13 +15,14 @@ header{
 }
 
 nav{
-	position: relative;
-  background-image: linear-gradient(180deg, gray,transparent);
-  /*Estilização da fonte da letra*/
-  font-family:verdana ;
-  color: white;
-  padding: 18px;
+
+
 }
+h1{
+  text-align:left;
+}
+
+ 
 
 section{
 

@@ -13,33 +13,21 @@
 		<link rel="stylesheet" type="text/css" href="css/all.css">		
 	<!----Favicon Icon - FALTA A LOGO---->	
 		<link  href="" rel="shortcut icon">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+
 </head>
 <body>
 <header>
-	<nav class="navbar navbar-expand-lg fixed-top" role="navigation">
-		<!---Pode ser inserido uma imagem como logo---->
-		<a class="navbar-brand" href="#"><img src="img/logo_playgain.png" alt="avatar" width=12% height=10%></a>
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
-   			 
-  		</button>
-
-  		<div class="collapse navbar-collapse justify-content-end mr-3" id="menu">
-			<ul class="navbar-nav">
-	 			<li class="nav-item mr-3 mt-2 buton">
-					<a class="btn btn-outline-warning nav-link text-light " href="perfil.html"><b>Home</b></a> 
-				</li>
-				<li class="nav-item mr-3 mt-2 buton">
-					<a class="btn btn-outline-warning nav-link text-light " href="cursos.html"><b>Cursos</b></a> 
-				</li>
-				<li class="nav-item mt-2 buton">
-					<a class="btn btn-outline-warning nav-link text-light  " href="cursos.html"><b>Configurações</b></a> 
-				</li>
-				<li class="nav-item mt-2 buton">
-					<a class="btn btn-outline-warning nav-link text-light  " href="index.html"><b>Logout</b></a> 
-				</li>
-			</ul>	
-		</div>	
+	<nav class="" role="navigation">
+		<div class="d-flex justify-content-between">
+			<img class="logo" src="img/logotipo_playgain.png" alt="logo">
+			<div class="d-flex nav-link-list">
+				<div class="nav-link"><a href="perfil.html">HOME</a></div>
+				<div class="nav-link active"><a href="cursos.html">CURSOS</a></div>
+				<div class="nav-link"><a href="index.html">CONFIGURAÇÕES</a></div>
+				<div class="nav-link"><a href="index.html">LOGOUT</a></div>
+			</div>
+		</div>
 	</nav>
 </header>
 <main>
@@ -51,15 +39,15 @@
 					
 					<div id="curso" class="list-group">
 						<!--Cabeçalho 2 -->
-						<a class="list-group-item bg-primary  text-light  disabled" href="#"><h4>O que é a B3?</h4></a>
+						<a class="list-group-item bg-primary  text-light  disabled" href="#"><h4><b>O que é a B3?</b></h4></a>
 
 						<!-- conteudos -->
-						<a class="list-group-item list-group-item-action bg-primary" href="#C1">Entenda a Bovespa</a>
+						
 						<a class="list-group-item list-group-item-action bg-primary" href="#C2">A Fundação da Bovespa</a>
 						<a class="list-group-item list-group-item-action bg-primary" href="#C3">O Desenvolvimento e a Expansão da Bovespa</a>
 		
 						<!--Cabeçalho 2 -->
-						<a class="list-group-item  bg-primary  text-light  disabled" ><h5>O IPO e o Surgimento da BM&FBovespa</h5></a>
+						<a class="list-group-item  bg-primary  text-light  disabled" ><h4><b>O que é IPO?</b></h4></a>
 
 						<!-- conteudos -->
 						<a class="list-group-item list-group-item-action bg-primary" href="#C4">Cronologia</a>
@@ -78,17 +66,17 @@
 				<div class="container text-justify">
 				<section>
 					<h1 class="mb-0 h1"><b>Introdução ao Mercado Financeiro<b></h1>
+						<br>
 				
 				<!-- Cabeçalho 1 -->
 				
-				<h4 class="text-center mt-4 " id="C1"><b>Entenda a Bovespa 1</b></h4>
+				
 				<p>A BOVESPA (Bolsa de Valores de São Paulo) é o principal mercado de negociação de ações de empresas do Brasil, maior bolsa de valores da América Latina e a oitava maior do mundo. Sua sede localiza-se no centro da cidade de São Paulo. Seu principal índice econômico é o Ibovespa.A Bolsa de Valores de São Paulo é uma entidade auto-reguladora que opera sob a supervisão da Comissão de Valores Mobiliários - CVM..</p>
 
-				<h4 id="C2" class="pt-3 text-center">A Fundação da Bovespa</h4>
+				<h4 id="C2" class="pt-3 text-left"><b>A Fundação da Bovespa</b></h4>
 				<p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.</p>
 				
 			
-
 				<h4 id="C3" class="pt-3 text-center">O Desenvolvimento e a Expansão da Bovespa</h4>
 				<p>Até meados da década de 1960, a Bovespa e as demais bolsas brasileiras eram entidades oficiais corporativas, vinculadas às secretarias de finanças (atuais Secretarias da fazenda estaduais). Eram 27 bolsas de valores em todo o Brasil, dos governos estaduais e compostas por corretores nomeados pelo poder público.
 
