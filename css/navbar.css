@@ -28,7 +28,7 @@ nav .logo {
 .nav-link:hover {
     background-color: #fea515ff;
     border-color: #fea515ff;
-    
+    cursor: pointer;    
 }
 
 .nav-link:hover a {
