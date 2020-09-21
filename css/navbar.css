@@ -1,0 +1,21 @@
+nav .logo {
+    color: black;
+    height: 50px;
+}
+
+.nav-link {
+    display: inline-block;
+    color: black !important;
+    padding: 0.4rem;
+    border: 2px solid #b1b1b1;
+    border-radius: 30px;
+    margin-left: 12px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.nav-link:hover {
+    background-color: #fea515ff;
+    border-color: #fea515ff;
+    color: white !important;
+}
